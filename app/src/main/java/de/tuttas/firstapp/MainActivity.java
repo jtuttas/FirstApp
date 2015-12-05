@@ -1,10 +1,12 @@
 package de.tuttas.firstapp;
 
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
@@ -39,6 +41,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onRestart() {
         // TODO Auto-generated method stub
         msg("onRestart()");
+        Log.d("MMBBS", "bin im Zustand Start");
 
         super.onRestart();
     }
