@@ -1,9 +1,10 @@
 package de.tuttas.firstapp;
 
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 
-public class Main2Activity extends ActionBarActivity {
+public class Main2Activity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
